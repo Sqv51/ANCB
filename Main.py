@@ -1,4 +1,5 @@
 TOKEN = "Your Telegram Bot token"
+ch_id = "reciving channel id"
 from telegram.ext import Updater, CallbackContext, CommandHandler, MessageHandler, Filters
 import random, logging, json
 updater = Updater(token=TOKEN, use_context=True)
